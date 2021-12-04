@@ -1164,7 +1164,7 @@ function displayData(dataJSON)
   <table>
   <tr>
   <td>
-    <a href="https://kermsite.com">转到主站</a>
+    <a href="https://kermsite.com" target="_blank">转到主站</a>
   </td>
   <td>
     <a href="#rss">转到RSS界面</a>  
@@ -1179,6 +1179,9 @@ function displayData(dataJSON)
 <h1>博客RSS部分</h1>
 <div id="rss">
     <script type="text/javascript" src="https://feed.informer.com/widgets/MOPTXB5UGE.js"></script>    
+</div>
+<div id="custom">
+  <script src="https://raw.githubusercontent.com/kerms0/WebInitJs/main/custom.js"></script>
 </div>
 </div>
 <h1>PHP探针部分</h1>
